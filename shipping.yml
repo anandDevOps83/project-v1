@@ -24,7 +24,7 @@ spec:
       image: public.ecr.aws/w8x4g9h7/roboshop-v3/shipping
       env:
         - name: CART_ENDPOINT
-          value: "cart.dev.adevops.click:8080"
+          value: "cart:8080"
         - name: DB_HOST
           value: "mysql.dev.adevops.click"
 ---

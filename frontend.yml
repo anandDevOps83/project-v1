@@ -25,22 +25,22 @@ spec:
       image: "public.ecr.aws/w8x4g9h7/roboshop-v3/frontend"
       env:
         - name: CATALOGUE_HOST
-          value: "catalogue.dev.adevops.click" 
+          value: "catalogue" 
         - name: CATALOGUE_PORT
           value: "8080"
         - name: USER_HOST
-          value: "user.dev.adevops.click"
+          value: "user"
         - name: USER_PORT
           value: "8080"
         - name: CART_HOST
-          value: "cart.dev.adevops.click"
+          value: "cart"
         - name: CART_PORT
           value: "8080"
         - name: SHIPPING_HOST
-          value: "shipping.dev.adevops.click"
+          value: "shipping"
         - name: SHIPPING_PORT
           value: "8080"   
         - name: PAYMENT_HOST
-          value: "payment.dev.adevops.click"   
+          value: "payment"   
         - name: PAYMENT_PORT
           value: "8080"                         

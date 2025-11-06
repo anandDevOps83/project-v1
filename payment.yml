@@ -24,11 +24,11 @@ spec:
       image: public.ecr.aws/w8x4g9h7/roboshop-v3/payment
       env:
         - name: CART_HOST
-          value: "cart.dev.adevops.click"
+          value: "cart"
         - name: CART_PORT
           value: "8080"
         - name: USER_HOST
-          value: "user.dev.adevops.click"
+          value: "user"
         - name: USER_PORT
           value: "8080" 
         - name: AMQP_HOST
