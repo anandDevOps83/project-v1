@@ -42,7 +42,7 @@ spec:
       restartPolicy: Never
       containers:
         - name: app-user
-          image: "public.ecr.aws/w8x4g9h7/roboshop-v3/schema-load"
+          image: public.ecr.aws/w8x4g9h7/roboshop-v3/schema-load
           env:
             - name: DB_TYPE
               value: "mysql"
@@ -57,7 +57,7 @@ spec:
             - name: SCHEMA_FILE
               value: "db/app-user.sql"
         - name: schema
-          image: "public.ecr.aws/w8x4g9h7/roboshop-v3/schema-load"
+          image: public.ecr.aws/w8x4g9h7/roboshop-v3/schema-load
           env:
             - name: DB_TYPE
               value: "mysql"
@@ -72,7 +72,7 @@ spec:
             - name: SCHEMA_FILE
               value: "db/schema.sql"
         - name: master-data
-          image: "public.ecr.aws/w8x4g9h7/roboshop-v3/schema-load"
+          image: public.ecr.aws/w8x4g9h7/roboshop-v3/schema-load
           env:
             - name: DB_TYPE
               value: "mysql"
