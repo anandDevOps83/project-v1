@@ -47,7 +47,7 @@ spec:
             - name: DB_TYPE
               value: "mysql"
             - name: APP_GIT_URL
-              value: "hhttps://github.com/roboshop-devops-project-v3/shipping"
+              value: "https://github.com/roboshop-devops-project-v3/shipping"
             - name: DB_HOST
               value: "mysql.dev.adevops.click"
             - name: DB_USER
@@ -62,7 +62,7 @@ spec:
             - name: DB_TYPE
               value: "mysql"
             - name: APP_GIT_URL
-              value: "hhttps://github.com/roboshop-devops-project-v3/shipping"
+              value: "https://github.com/roboshop-devops-project-v3/shipping"
             - name: DB_HOST
               value: "mysql.dev.adevops.click"
             - name: DB_USER
@@ -77,7 +77,7 @@ spec:
             - name: DB_TYPE
               value: "mysql"
             - name: APP_GIT_URL
-              value: "hhttps://github.com/roboshop-devops-project-v3/shipping"
+              value: "https://github.com/roboshop-devops-project-v3/shipping"
             - name: DB_HOST
               value: "mysql.dev.adevops.click"
             - name: DB_USER
